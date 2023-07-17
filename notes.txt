@@ -9,3 +9,19 @@ dotnet build FooBar.sln
 dotnet add ./Lib/Lib.csproj package SQLite
 
 dotnet add Server/Server.csproj reference Lib/Lib.csproj
+
+dotnet run --project Server/Server.csproj
+
+{
+  "Id": 6004504083,
+  "IsBot": true,
+  "FirstName": "StoryBooks",
+  "LastName": null,
+  "Username": "StoryBooksTGBot",
+  "LanguageCode": null,
+  "IsPremium": null,
+  "AddedToAttachmentMenu": null,
+  "CanJoinGroups": true,
+  "CanReadAllGroupMessages": false,
+  "SupportsInlineQueries": false
+}
