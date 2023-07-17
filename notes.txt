@@ -5,3 +5,7 @@ dotnet sln add .\Foo\Foo.csproj
 dotnet sln add .\Bar\Bar.csproj
 dotnet restore
 dotnet build FooBar.sln
+
+dotnet add ./Lib/Lib.csproj package SQLite
+
+dotnet add Server/Server.csproj reference Lib/Lib.csproj
